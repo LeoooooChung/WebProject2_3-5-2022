@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+$main_font: 'Fredoka', sans-serif; 
+
+@import "nav";
+@import "slick";
+@import "about";
+@import "project";
+@import "footer";
+
+
+//top bottom
+.Top_Bottom{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Practice 3</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="top">
+
+    <nav data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">
+        <a href="./index.html" >Leo</a>
+        <p>Puppy</p>
+        <div class="nav_img">
+            <a href=""><img src="./IMG/Line.png" alt=""></a>
+            <a href=""><img src="./IMG/Instagram.png" alt=""></a>
+            <a href=""><img src="./IMG/Facebook.png" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- Scrolling row -->
+    <div class="slick">
+        <img src="./IMG/puppy_1.jpg" alt="">
+        <img src="./IMG/puppy_2.jpg" alt="">
+        <img src="./IMG/puppy_3.jpg" alt="">
+        <img src="./IMG/puppy_4.jpg" alt="">
+        <img src="./IMG/puppy_5.jpg" alt="">
+    </div>
+
+    <div class="about">
+        <p class="about_title">Web Design 2</p>
+        <h1 data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">Puppy Pictures</h1>
+        <p class="Info">This is my second Web Design Project. 3/12/2022</p>
+        <a href="">About me</a>
+    </div>
+
+    <div class="Project">
+        <p >Puppy Picutre List</p>
+        <div class="profolio_main">
+            <div class="profolio_card" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+                <a href="">
+                    <img src="./IMG/PuppyCard_1.jpg" alt="">
+                </a>
+                <span class="card_title">Puppy Picture 1</span>
+                <span class="card_content">Sleepy Puppy</span>
+            </div>
+            <div class="profolio_card" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">
+                <a href="">
+                    <img src="./IMG/PuppyCard_2.jpg" alt="">
+                </a>
+                <span class="card_title">Puppy Picture 2</span>
+                <span class="card_content">Japanese Puppy</span>
+            </div>
+            <div class="profolio_card" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" data-aos-delay="900">
+                <a href="">
+                    <img src="./IMG/PuppyCard_3.jpg" alt="">
+                </a>
+                <span class="card_title">Puppy Picture 3</span>
+                <span class="card_content">Double Eye Colors Puppy</span>
+            </div>
+            <div class="profolio_card" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" data-aos-delay="1100">
+                <a href="">
+                    <img src="./IMG/PuppyCard_4.jpg" alt="">
+                </a>
+                <span class="card_title">Puppy Picture 4</span>
+                <span class="card_content">Multiple Puppies</span>
+            </div>
+            <div class="profolio_card" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" data-aos-delay="1300">
+                <a href="">
+                    <img src="./IMG/PuppyCard_5.jpg" alt="">
+                </a>
+                <span class="card_title">Puppy Picture 5</span>
+                <span class="card_content">Another Sleepy Puppy</span>
+            </div>
+            <div class="profolio_card" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" data-aos-delay="1500">
+                <a href="">
+                    <img src="./IMG/PuppyCard_6.jpg" alt="">
+                </a>
+                <span class="card_title">Puppy Picture 6</span>
+                <span class="card_content">Two Puppies</span>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="Title">My Second Web Project</p>
+        <div class="nav_img">
+            <a href=""><img src="./IMG/Line.png" alt=""></a>
+            <a href=""><img src="./IMG/Instagram.png" alt=""></a>
+            <a href=""><img src="./IMG/Facebook.png" alt=""></a>
+        </div>
+        <div class="Intro">
+            <p>About Me</p>
+            <p>Contact Me</p>
+            <p>Contact Me</p>
+        </div>
+        <p>Copyright&copy; LeoChung03/19/2022</p>
+    </footer>
+
+    <img data-gt-target="#top" data-gt-duration="1000" data-gt-offset="300" class="Top_Bottom" src="./IMG/Top.png" alt="">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kyriehavegoodday.github.io/GoTo_Element/goto.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        AOS.init();
+        $('.slick').slick({
+            autoplay: true,
+            autoplaySpeed: 2000
+        }); 
+    </script>
+</body>
+
+
+</html>
