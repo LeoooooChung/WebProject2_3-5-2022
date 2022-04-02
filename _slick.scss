@@ -7,6 +7,11 @@
         object-fit: cover;
         cursor: pointer;
     }
-    
-    
+}
+@media screen and (max-width:$phone){
+    .slick{
+        img{
+        height: 600px;
+        }
+    }
 }

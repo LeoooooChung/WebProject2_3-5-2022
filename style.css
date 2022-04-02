@@ -60,6 +60,16 @@ nav p {
   height: 32px;
 }
 
+@media screen and (max-width: 414px) {
+  .nav {
+    margin: 0 5px;
+  }
+  .nav_img img {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}
+
 .slick {
   overflow: hidden;
 }
@@ -71,6 +81,12 @@ nav p {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
+}
+
+@media screen and (max-width: 414px) {
+  .slick img {
+    height: 600px;
+  }
 }
 
 .about {
@@ -109,6 +125,12 @@ nav p {
 .about a:hover {
   color: #fff;
   background-color: #ccc;
+}
+
+@media screen and (max-width: 414px) {
+  .about .Info {
+    font-size: 19px;
+  }
 }
 
 .Project {
@@ -156,6 +178,31 @@ nav p {
   font-weight: 700;
   font-size: 20px;
   margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .Project {
+    width: 100%;
+  }
+  .Project .profolio_main {
+    gap: 5px;
+  }
+  .Project .profolio_main .profolio_card {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .Project .profolio_main {
+    display: block;
+  }
+  .Project .profolio_main .profolio_card {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .Project p {
+    font-size: 48px;
+  }
 }
 
 footer {

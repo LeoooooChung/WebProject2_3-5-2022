@@ -37,8 +37,31 @@
             }
         }
     }
+}
 
-    
+@media screen and (max-width:$ipad){
+    .Project{
+        width: 100%;
+        .profolio_main{
+            gap: 5px;
+            .profolio_card{
+                width: 48%;
+            }
+        }
+    } 
+} 
 
-
+@media screen and (max-width:$phone){
+    .Project{
+        .profolio_main{
+            display: block;
+            .profolio_card{
+                width: 100%;
+                margin-bottom: 8px;
+            }
+        }
+        p{
+            font-size: 48px;
+        }
+    }
 }

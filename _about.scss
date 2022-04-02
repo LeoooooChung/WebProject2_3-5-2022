@@ -32,6 +32,12 @@
             background-color: #ccc;
         }
     }
+}
 
-    
+@media screen and (max-width: $phone) {
+    .about{
+        .Info{
+            font-size: 19px;
+        }
+    }
 }

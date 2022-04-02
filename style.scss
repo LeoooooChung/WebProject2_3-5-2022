@@ -7,13 +7,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 $main_font: 'Fredoka', sans-serif; 
+$ipad:768px;
+$phone:414px;
 
 @import "nav";
 @import "slick";
 @import "about";
 @import "project";
 @import "footer";
-
 
 //top bottom
 .Top_Bottom{
@@ -26,3 +27,4 @@ $main_font: 'Fredoka', sans-serif;
     height: 50px;
     cursor: pointer;
 }
+
