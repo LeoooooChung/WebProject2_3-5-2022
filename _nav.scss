@@ -1,4 +1,5 @@
 nav {
+    position: relative;
     .nav_menu {
         width: 100%;
         height: 80px;
@@ -49,9 +50,9 @@ nav {
 }
 
 @media screen and (max-width: $phone) {
-    nav {
-        justify-content: space-between;
-        padding: 0 15px;
+    .nav_menu {
+        justify-content: space-between !important;
+        padding: 0 15px !important;
         p {
             display: none;
         }
