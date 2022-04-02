@@ -28,3 +28,42 @@ $phone:414px;
     cursor: pointer;
 }
 
+.mb_menu{
+    display: none;
+    @media screen and (max-width:$phone){
+        display: block;
+        width: 100%;
+        background: #fff;
+        position: absolute;
+        z-index: 10;
+        top: 80px;
+        .menu_p{
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu_img{
+            .menu_img_size{
+                width: 80px;
+                margin: 0 auto;
+                div{
+                    margin-bottom: 10px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        img{
+                            width: 32px;
+                            height: 32px;
+                        }
+                        p{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
